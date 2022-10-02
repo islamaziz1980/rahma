@@ -61,6 +61,10 @@ a{font-family: 'Almarai', sans-serif !important; }
       text-align: center;
       font-family:GE_SS_Two_Bold !important;
 }
+.ads-caption2{
+      right: 14%;
+      top: 214px !important;;
+}
 .lobo{width: 200px;}
 .carousel-logo{
   position: absolute;
@@ -156,7 +160,7 @@ a.google.focus, a.google:focus, a.google:hover {color: #ff4646 !important;}
 }
 .head-tit {color: #ffffff;font-family: 'Almarai', sans-serif !important; padding: 20px; color:#ae4b35; border: #ffffff solid 1px; border-radius: 30px;border-radius: 30px;width: fit-content;  margin: auto;  font-size: 35px; text-shadow:0px !important;  }
 
-.pa-my-prj{padding: 5px;border: 1px solid #d1d1d1;border-radius: 25px;}
+.pa-my-prj{padding: 5px;border: 1px solid #d1d1d1;border-radius: 25px;margin-top: 25px; margin-bottom: 25px;}
 .pa-my-prj h3{ font-family: 'Almarai', sans-serif !important; font-weight: 700;color: #FF6846 }
 .pa-my-prj h5{ font-family: 'Almarai', sans-serif !important; font-weight: 700;}
 .pa-my-new{ margin-top: 20px;}
@@ -343,19 +347,26 @@ p.txt-no{ text-align: left;font-family: 'Almarai', sans-serif !important; color:
 
 
 /*******mobile sizes ***/
+@media only screen and (max-width: 1340px){
+.cap2 {bottom: 170px !important;}
+>
+
 @media only screen and (max-width: 1140px){
   .carousel-logo {top: 65px !important;}
+  .carousel-logo2 { right: 4%;}
   .cvfg {padding-bottom: 45px !important;}
 }
 @media only screen and (max-width: 1123px){
     .ch-bg1{ background:url("../img/step-bg11.svg") no-repeat top center ;}
     .ch-bg2{ background:url("../img/step-bg22.svg") no-repeat top center ;}
+    .cap2 {bottom: 220px !important;}
 }
 @media only screen and (max-width: 991px){
     .ch-bg1{ background:url("../img/step-bg1.svg") no-repeat top right ;height: 150px;}
     .ch-bg2{ background:url("../img/step-bg2.svg") no-repeat top right ;height: 150px;}
     .chart {width: 95%;}
     .step-txt { padding-right: 58px;}
+    .cap2 {bottom: 170px !important;}
 }
 @media only screen and (max-width: 970px){
   .lobo {width: 180px;}
@@ -363,14 +374,17 @@ p.txt-no{ text-align: left;font-family: 'Almarai', sans-serif !important; color:
 .cvfg {padding-bottom: 0px !important;}
 .carousel-inner>.item {height: 335px;}
   .ads-caption {right: 8%;top: 165px !important;}
+  .carousel-logo2 {right: 0%;}
 }
 @media only screen and (max-width: 850px){
   .lobo {width: 150px;}
   .carousel-logo {top: 45px !important;}
   .carousel-inner>.item {height: 285px;}
+  .cap2 {bottom: 100px !important;}
   .cvfg h2{ font-size: 26px !important;}
   .cvfg a{ font-size: 14px !important;}
   .ads-caption {right: 7%;top: 141px !important;}
+  .pa-my-prj{width:90%;}
 }
 @media only screen and (max-width: 700px){
   .lobo {width: 120px;}
@@ -385,12 +399,16 @@ p.txt-no{ text-align: left;font-family: 'Almarai', sans-serif !important; color:
 
 @media only screen and (max-width: 600px){
   .lobo {width: 100px;}
+  .lobo2 {width: 120px !important;}
   .carousel-logo {top: 20px !important;}
+
   .cvfg h2 { font-size: 18px!important;}
   .cvfg h5 { font-size: 12px!important;}
   .carousel-inner>.item {height: 215px;}
   .cvfg a{ font-size: 12px !important;}
   .ads-caption {right: 5%;top: 65px !important;}
+  .carousel-logo2 {top: 135px !important;}
+  .ads-caption2 {right: 5%;top: 200px !important;}
 }
 @media only screen and (max-width: 550px){
   .btn-header{font-size: 15px !important;}
@@ -410,25 +428,34 @@ div.ads-caption h2 {font-size: 19px;}
 }
 @media only screen and (max-width: 450px){
   .carousel-logo {  top: 7px !important;}
+  .carousel-logo2 {top: 100px !important;}
+  .ads-caption2 {top: 160px !important;}
 }
 @media only screen and (max-width: 410px){
   .lobo {width: 60px;}
+  .lobo2 {width: 80px;}
+    .ads-caption2 h2{ font-size: 16px !important;}
+    .ads-caption2 {top: 135px !important;}
   .lobo2 {width: 80px !important;}
   .head-tit { font-size: 20px;}
   .cvfg h2 {font-family:GE_SS_Text_Light !important;}
   .cvfg h5 {font-family:GE_SS_Text_Light !important;}
 }
 @media only screen and (max-width: 375px){
+  .cap2 {bottom: 9px !important;}
   .head-tit { font-size: 16px;}
   .cvfg h2 {font-size: 11px;}
   .cvfg h5 {font-size: 9px;}
   .cvfg a{ font-size: 12px;}
   .carousel-logo {top: 0px !important;}
+  .carousel-logo2 {top: 95px !important;
   .cap2 {bottom: 8px !important;}
 }
 @media only screen and (max-width: 350px){
   .cvfg a{ font-size: 9px !important;}
+    .ads-caption2 {top: 125px !important;}
 }
 @media only screen and (max-width: 320px){
   .black-bg {height: 91%;}
+  .ads-caption2 h2 {font-size: 15px !important;}
 }
